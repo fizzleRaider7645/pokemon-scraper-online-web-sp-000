@@ -14,5 +14,6 @@ class Pokemon
     new_pokemon.id = pokemon_parts[0]
     new_pokemon.name = pokemon_parts[1]
     new_pokemon.type = pokemon_parts[2]
+    new_pokemon
   end
 end
