@@ -14,6 +14,5 @@ class Pokemon
     new_id = pokemon_parts[0]
     new_name = pokemon_parts[1]
     new_type = pokemon_parts[2]
-   p  new_pokemon = Pokemon.new(id:, name:, type:, db:)
   end
 end
