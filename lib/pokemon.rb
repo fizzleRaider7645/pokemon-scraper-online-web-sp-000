@@ -19,6 +19,6 @@ class Pokemon
   end
   
   def alter_hp(points, db)
-    
+    self.find
   end
 end
