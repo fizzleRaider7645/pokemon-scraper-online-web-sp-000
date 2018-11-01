@@ -19,6 +19,6 @@ class Pokemon
   end
   
   def update(points, db)
-    
+    db.execute("UPDATE pokemon SET")
   end
 end
