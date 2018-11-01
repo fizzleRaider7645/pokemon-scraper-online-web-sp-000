@@ -17,4 +17,7 @@ class Pokemon
     new_pokemon.type = pokemon_parts[2]
     new_pokemon
   end
+  
+  def alter_hp
+  end
 end
