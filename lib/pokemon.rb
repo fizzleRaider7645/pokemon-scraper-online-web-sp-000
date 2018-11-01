@@ -19,6 +19,6 @@ class Pokemon
   end
   
   def alter_hp(id, db)
-    self.find
+    new_pokemon = self.find
   end
 end
