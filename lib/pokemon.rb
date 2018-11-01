@@ -19,7 +19,7 @@ class Pokemon
     new_id = pokemon_parts[0]
     new_name = pokemon_parts[1]
     new_type = pokemon_parts[2]
-    p new_pokemon = Pokemon.new(id: new_id, name: new_name, type: new_type, db: db)
+    new_pokemon = Pokemon.new(id: new_id, name: new_name, type: new_type, db: db)
   end
   
   def alter_hp(id, db)
