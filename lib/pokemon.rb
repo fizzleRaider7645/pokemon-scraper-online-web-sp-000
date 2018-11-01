@@ -18,7 +18,7 @@ class Pokemon
     new_pokemon
   end
   
-  def update(points, db)
+  def add_column(points, db)
     db.execute("ALTER TABLE pokemon ADD COLUMN hp")
   end
 end
